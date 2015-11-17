@@ -13,6 +13,8 @@
 		CB6E574A1BFADE0800E9B680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6E57491BFADE0800E9B680 /* Assets.xcassets */; };
 		CB6E574D1BFADE0800E9B680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6E574B1BFADE0800E9B680 /* LaunchScreen.storyboard */; };
 		CB9605351BFAE0B200C1E3B1 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9605341BFAE0B200C1E3B1 /* Animal.swift */; };
+		CB9605371BFAEFE500C1E3B1 /* MyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9605361BFAEFE500C1E3B1 /* MyModalViewController.swift */; };
+		CB9605391BFAF3E900C1E3B1 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9605381BFAF3E900C1E3B1 /* GestureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CB6E574C1BFADE0800E9B680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6E574E1BFADE0800E9B680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB9605341BFAE0B200C1E3B1 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		CB9605361BFAEFE500C1E3B1 /* MyModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyModalViewController.swift; sourceTree = "<group>"; };
+		CB9605381BFAF3E900C1E3B1 /* GestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CB6E57421BFADE0800E9B680 /* AppDelegate.swift */,
 				CB6E57441BFADE0800E9B680 /* ViewController.swift */,
 				CB6E57461BFADE0800E9B680 /* Main.storyboard */,
+				CB9605381BFAF3E900C1E3B1 /* GestureViewController.swift */,
+				CB9605361BFAEFE500C1E3B1 /* MyModalViewController.swift */,
 				CB9605341BFAE0B200C1E3B1 /* Animal.swift */,
 				CB6E57491BFADE0800E9B680 /* Assets.xcassets */,
 				CB6E574B1BFADE0800E9B680 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9605371BFAEFE500C1E3B1 /* MyModalViewController.swift in Sources */,
 				CB6E57451BFADE0800E9B680 /* ViewController.swift in Sources */,
 				CB6E57431BFADE0800E9B680 /* AppDelegate.swift in Sources */,
+				CB9605391BFAF3E900C1E3B1 /* GestureViewController.swift in Sources */,
 				CB9605351BFAE0B200C1E3B1 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

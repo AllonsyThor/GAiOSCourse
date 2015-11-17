@@ -5,6 +5,66 @@ import UIKit
 //Simulate an interaction between an owner and a dog
 //Owner is able to feed the dog...then any pet!!!
 
+@objc protocol Moveable{
+
+    func moveForward()
+    func moveBackward()
+    func moveLeft()
+    func moveRight()
+    
+    //Optional
+    optional func moveSideways()
+}
+
+class Car : Moveable{
+    @objc func moveForward(){
+        print("I'm driving forward")
+    }
+    
+    @objc func moveBackward(){
+        print("I'm driving backward")
+    }
+    
+    @objc func moveLeft(){
+        print("I'm driving left")
+    }
+    
+    @objc func moveRight(){
+        print("I'm driving right")
+    }
+
+}
+
+
+class Fish : Moveable{
+    @objc func moveForward(){
+        print("I'm swimming forward")
+    }
+    
+    @objc func moveBackward(){
+        print("I'm swimming backward")
+    }
+    
+    @objc func moveLeft(){
+        print("I'm swimming left")
+    }
+    
+    @objc func moveRight(){
+        print("I'm swimming right")
+    }
+
+}
+
+var moveable : Moveable = Fish()
+var moveable2 : Moveable = Car()
+
+moveable.moveBackward()
+moveable2.moveForward()
+
+
+
+
+
 
 //Make classes conceptually
 class Owner{

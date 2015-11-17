@@ -28,6 +28,13 @@ class ViewController: UIViewController {
     }
 
     @IBOutlet weak var UILabelOutput: UILabel!
-
+    
+    
+//Below is something done for class notes
+    @IBAction func showModalButtonDidPressed(sender: AnyObject) {
+        if UILabelOutput.text == "Katie"{
+        performSegueWithIdentifier("ModalSegue", sender: nil)
+        }
+    }
 }
 
