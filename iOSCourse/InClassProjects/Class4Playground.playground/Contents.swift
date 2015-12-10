@@ -195,6 +195,17 @@ print(fib)
 // TODO: Write a function that takes in a string and returns a string that is the reverse of the input.
 // Hint 1: Use a for loop to iterate through each character of the string (backwards)
 // Hint 2: Append new strings using the + operator.
+//Classmate's example
+//func reverse(s: String) -> String{
+//    var rString = ""
+//for var i = s.characters.count -1; i > -1; --1{
+//    let char = s[s.startIndex.advanceBy(i)]
+//    rString += String(char)
+//    }
+//    return rStrng
+//}
+// reverse("hello")
+
 // SUPER BONUS TODO: Write a function that accepts a string and returns a boolean indicating whether a string is a palindrome (reads the same backwards or forwards).
 //var word = "racecar"
 //var reverse = String(word.characters.reverse())
@@ -206,16 +217,16 @@ print(fib)
 // SUPER BONUS TODO: Write a function that takes in a number and prints out whether it is prime or not
 
 
-func check (prime: Int) -> Bool{
-    for N in 2...prime - 1  {
-        if prime % N == 0{
-            return(false)
-        }
-    }
-    return(true)
-}
-
-check(56)
+//func check (prime: Int) -> Bool{
+//    for N in 2...prime - 1  {
+//        if prime % N == 0{
+//            return(false)
+//        }
+//    }
+//    return(true)
+//}
+//
+//check(56)
 
 
 

@@ -24,7 +24,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxT-0i-1J3">
-                                <rect key="frame" x="98" y="214.5" width="70" height="32.5"/>
+                                <rect key="frame" x="98" y="215" width="70" height="32"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.47079747859999999" green="0.63943248330000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Canine">

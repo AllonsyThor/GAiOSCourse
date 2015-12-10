@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Robot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gadget_0020_cyberman_0020_radio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QyZ-SI-eMd">
+                                <rect key="frame" x="189" y="438" width="120" height="114"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3d-printed-dalek-from-the-tv-show-doctor-who-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OM9-bJ-69K">
+                                <rect key="frame" x="112" y="229" width="150" height="210"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ed66_exclusive_doctor_who_k9_figure.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-lE-xBe">
+                                <rect key="frame" x="25" y="438" width="149" height="129"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Clockwork_Robot.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S9v-EZ-w1b">
+                                <rect key="frame" x="102" y="28" width="153" height="168"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ff608d298fab7451d8fbfedefe0f92df.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wTK-If-m9g">
+                                <rect key="frame" x="254" y="229" width="150" height="210"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d7f519462470eb4d1cfda894046c0017.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dyT-8J-k7u">
+                                <rect key="frame" x="-11" y="229" width="150" height="210"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="387.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3d-printed-dalek-from-the-tv-show-doctor-who-1.jpg" width="421" height="620"/>
+        <image name="Clockwork_Robot.jpg" width="340" height="386"/>
+        <image name="d7f519462470eb4d1cfda894046c0017.jpg" width="236" height="355"/>
+        <image name="ed66_exclusive_doctor_who_k9_figure.jpg" width="600" height="600"/>
+        <image name="ff608d298fab7451d8fbfedefe0f92df.jpg" width="634" height="838"/>
+        <image name="gadget_0020_cyberman_0020_radio.jpg" width="283" height="304"/>
+    </resources>
+</document>
