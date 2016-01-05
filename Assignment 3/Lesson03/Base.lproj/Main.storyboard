@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G0q-Oc-BQG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ge3-dz-hrb">
+            <objects>
+                <navigationController id="G0q-Oc-BQG" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e8n-OK-OQW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="0yG-l7-Yyg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYx-YH-Kcs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="407"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Lesson03" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AG3-bY-Vru">
+                                <rect key="frame" x="96" y="322" width="128" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="DB9-Jg-gkA"/>
+                                    <constraint firstAttribute="height" constant="30" id="dwV-ga-14C"/>
+                                </constraints>
+                                <state key="normal" title="Display Table View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tH5-nV-9zA" kind="show" id="ST7-v6-WxE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMl-Di-GNm">
+                                <rect key="frame" x="20" y="122" width="294" height="154"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293.5" id="pEs-UT-NKI"/>
+                                    <constraint firstAttribute="height" constant="154" id="z5Q-zy-Nta"/>
+                                </constraints>
+                                <string key="text">TODO: When this is swiped horizontally,
+a modal should appear.
+It needs to have an image view and a dismiss button that dismisses the modal. Do this in code.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gfO-IW-v5C" appends="YES" id="10m-3G-UKW"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="AG3-bY-Vru" secondAttribute="centerX" id="0zs-lK-Y2n"/>
+                            <constraint firstAttribute="centerY" secondItem="AG3-bY-Vru" secondAttribute="centerY" constant="-97" id="RgT-FV-BaV"/>
+                            <constraint firstAttribute="centerX" secondItem="NMl-Di-GNm" secondAttribute="centerX" id="daB-TD-fOi"/>
+                            <constraint firstAttribute="centerY" secondItem="NMl-Di-GNm" secondAttribute="centerY" constant="36" id="lkv-nx-NKf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hzY-Hy-RMA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="gfO-IW-v5C">
+                    <connections>
+                        <action selector="swipeRight:" destination="vXZ-lx-hvc" id="IV1-yh-Pyy"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-77" y="400"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8sx-5T-fOK">
+            <objects>
+                <viewController id="2zT-Yl-I5p" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aRs-3Y-Sx7"/>
+                        <viewControllerLayoutGuide type="bottom" id="3lo-iF-dNP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UIU-tT-GjD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CodingTock.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="npr-Ul-XsT">
+                                <rect key="frame" x="40" y="92" width="250" height="276"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0V-MK-Juz">
+                                <rect key="frame" x="125" y="28" width="71" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="show" id="LUa-mR-PmD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lsJ-kB-md8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-77" y="941"/>
+        </scene>
+        <!--Array Table View Controller-->
+        <scene sceneID="hS5-QX-ITe">
+            <objects>
+                <tableViewController id="tH5-nV-9zA" customClass="ArrayTableViewController" customModule="Lesson03" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Og0-Eu-lKu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="tH5-nV-9zA" id="hWp-7m-lXf"/>
+                            <outlet property="delegate" destination="tH5-nV-9zA" id="sq9-e2-t6c"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OuN-we-tcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CodingTock.JPG" width="2448" height="3264"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0yG-l7-Yyg"/>
+    </inferredMetricsTieBreakers>
+</document>

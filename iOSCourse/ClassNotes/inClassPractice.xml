@@ -1,0 +1,30 @@
+<Users>
+	<user>
+		<firstName>Katie</firstName>
+		<lastName>Kelleher</lastName>
+		<phoneNumber>3104903635</phoneNumber>
+		<age>31</age>
+		<bio>Scuba diver, greyhound owner, Potterhead, Whovian, etc.</bio>
+	</user>
+	<user>
+		<firstName>David</firstName>
+		<lastName>Mittelman</lastName>
+		<phoneNumber>5748492919</phoneNumber>
+		<age>31</age>
+		<bio>Scuba diver, photographer, coder extraordinare</bio>
+	</user>
+	<user>
+		<firstName>Tock</firstName>
+		<lastName>Kelleher-Mittelman</lastName>
+		<phoneNumber>3104903635</phoneNumber>
+		<age>3</age>
+		<bio>Greyhound: fast, loveable, silly, sleepy</bio>
+	</user>
+	<user>
+		<firstName>Phantom</firstName>
+		<lastName>Kelleher</lastName>
+		<phoneNumber>3104903635</phoneNumber>
+		<age>3</age>
+		<bio>Fish: grumpy, hungry, nosy</bio>
+	</user>
+</Users>
