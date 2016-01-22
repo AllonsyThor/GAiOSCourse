@@ -1,0 +1,6 @@
+framework module Pods_StatusBook {
+  umbrella header "Pods-StatusBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
